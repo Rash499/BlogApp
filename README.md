@@ -15,3 +15,4 @@ npm install imagekitio-react
 # Sites
 
 https://imagekit.io/docs
+https://dashboard.clerk.com/apps
