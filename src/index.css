@@ -5,8 +5,9 @@
 body{
     background-color: #e6e6ff;
     width: 100vw;
-    overflow: hidden;
     font-family: "Montserrat", sans-serif;
+    min-height: 100%;
+    overflow-x: hidden;
 }
 
 .animatedButton{
