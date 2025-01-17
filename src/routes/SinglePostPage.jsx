@@ -35,7 +35,61 @@ const SinglePostPage = () => {
         </div>
       </div>
        {/*content*/}
-       <div className=''></div>
+       <div className='flex flex-col md:flex-row gap-8'>
+          {/*text*/}
+          <div className='lg:text-lg flex flex-col gap-6 text-justify'>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              At nam maxime dicta ut. Nostrum vero quaerat veniam reiciendis, 
+              eaque recusandae id quam possimus fuga iste aut nemo sapiente provident pariatur.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum expedita quis ea. 
+              Expedita quas nemo, eius quae officia at eveniet. Velit,
+              culpa doloribus quam asperiores minima aliquid accusamus quidem molestiae.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              At nam maxime dicta ut. Nostrum vero quaerat veniam reiciendis, 
+              eaque recusandae id quam possimus fuga iste aut nemo sapiente provident pariatur.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum expedita quis ea. 
+              Expedita quas nemo, eius quae officia at eveniet. Velit,
+              culpa doloribus quam asperiores minima aliquid accusamus quidem molestiae.
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              At nam maxime dicta ut. Nostrum vero quaerat veniam reiciendis, 
+              eaque recusandae id quam possimus fuga iste aut nemo sapiente provident pariatur.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum expedita quis ea. 
+              Expedita quas nemo, eius quae officia at eveniet. Velit,
+              culpa doloribus quam asperiores minima aliquid accusamus quidem molestiae.
+            </p>
+          </div>
+          {/*menu*/}
+          <div className='px-4 h-max sticky top-8'>
+            <h1>Author</h1>
+            <div className=''>
+              <Image 
+                src='userImg.jpeg' 
+                className='w-12 h-12 rounded-full object-cover' 
+                w='48' 
+                h='48' 
+              />
+
+              <Link>John Doe</Link>
+              <p>Lorem ipsum dolor sit.</p>
+              <div className='flex gap-2'>
+                <Link>
+                  <Image src='facebook.svg' />
+                </Link>
+
+                <Link>
+                  <Image src='instagram.svg' />
+                </Link>
+              </div>
+            </div>
+          </div>
+       </div>
     </div>
   )
 }
