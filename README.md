@@ -12,8 +12,13 @@ Currently, two official plugins are available:
 
 npm install imagekitio-react
 
+
 # Sites
 
 https://imagekit.io/docs
 https://dashboard.clerk.com/apps
 react-quill-new
+
+
+# testing
+node --watch index.js
