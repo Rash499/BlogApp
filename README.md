@@ -16,3 +16,4 @@ npm install imagekitio-react
 
 https://imagekit.io/docs
 https://dashboard.clerk.com/apps
+react-quill-new
