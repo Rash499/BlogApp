@@ -8,6 +8,8 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express()
+app.use("/webhooks",webHookRouter); //can get confilict with json modules 
+                                    //for webhook using body-parser
 app.use(express.json());
 
 /* app.get("/test",(req,res) => {
@@ -17,13 +19,13 @@ app.use(express.json());
 app.use("/users",userRouter);
 app.use("/posts",postRouter);
 app.use("/comments",commentRouter);
-app.use("/webhooks",webHookRouter);
+
 
 app.use((error,req,res,next) => {
 
     res.status(error.status || 500);
 
-    res.jason({
+    res.json({
         message:error.message || "Something went wrong!",
         status:error.status,
         stack:error.stack,
