@@ -11,13 +11,16 @@ Currently, two official plugins are available:
 # Dependencies
 
 npm install imagekitio-react
-
+npm install svix
+npm install body-parser
 
 # Sites
 
 https://imagekit.io/docs
 https://dashboard.clerk.com/apps
 react-quill-new
+clerk 
+ngork
 
 
 # testing

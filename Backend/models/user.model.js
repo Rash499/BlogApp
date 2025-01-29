@@ -2,6 +2,11 @@ import { Schema } from "mongoose";
 import mongoose from "mongoose";
 
 const userSchema = new Schema({
+
+    clerkId:{
+        type:String,
+        required:true,
+    },
     username:{
         type:String,
         required:true,
@@ -18,7 +23,6 @@ const userSchema = new Schema({
     img:{
         type:String,
     },
-
     savedPosts:{
         type:[String],
         default: [],
