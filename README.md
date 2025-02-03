@@ -13,6 +13,10 @@ Currently, two official plugins are available:
 npm install imagekitio-react
 npm install svix
 npm install body-parser
+npm install axios
+npm install @clerk/express
+npm install @tanstack/react-query
+npm install cors
 
 # Sites
 
@@ -21,6 +25,8 @@ https://dashboard.clerk.com/apps
 react-quill-new
 clerk 
 ngork
+clerk express authorization
+tanstack Query
 
 
 # testing
